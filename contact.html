@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">Thomas A. Withers III</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="projects.html">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="headSkirt"><a href="https://github.com/twithers24"><img class="icon" src="images/github.png" alt="Avatar"></a></div>
+            
+       <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1 class="header1">CONTACT ME</h1>
+                </div>
+                <div class="col-sm-8" "form-container">
+                       <form action="mailto:withers.thomas3@gmail.com" method="post" enctype="text/plain">
+                                <div class="form-group">
+                                        <label for="exampleFormControlInput1">Full Name</label>
+                                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your Full Name">
+                                      </div>
+                                <div class="form-group">
+                                  <label for="exampleFormControlInput1">Email Address</label>
+                                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your Email">
+                                </div>
+                                <div class="form-group">
+                                  <label for="exampleFormControlTextarea1">Message</label>
+                                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                                <button type="submit" onclick="email()" id="submit"class="btn btn-primary">Submit</button>
+                            </form>
+                </div>
+            </div>
+        </div>  
+
+        <script>
+            function email(){
+                console.log("Works?")
+                //document.getElementById("submit")=con
+            }
+        
+        </script>
+    
+</body>
+</html>
